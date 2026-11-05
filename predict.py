@@ -24,8 +24,8 @@ import torch
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.dataset import FEATURE_COLUMNS, Scaler
-from src.model import ProcrastinationNet
+from dataset import FEATURE_COLUMNS, Scaler
+from model import ProcrastinationNet
 
 
 FRIENDLY_PROMPTS = {
