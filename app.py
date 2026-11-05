@@ -17,8 +17,8 @@ import streamlit as st
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from src.dataset import FEATURE_COLUMNS
-from src.predict import load_model, predict_one, verdict
+from dataset import FEATURE_COLUMNS
+from predict import load_model, predict_one, verdict
 
 st.set_page_config(page_title="AI Procrastination Predictor", page_icon="\U0001F4A4")
 
